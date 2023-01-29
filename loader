@@ -1,0 +1,6 @@
+#!/bin/env sh
+
+APPID=org.deepin.demo
+export LD_LIBRARY_PATH="/opt/apps/$APPID/files"
+echo ./ll-box $APPID $PWD "/opt/apps/$APPID/files/bin/demo"
+./ll-box $APPID $PWD "/opt/apps/$APPID/files/bin/demo"
